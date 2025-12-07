@@ -4,6 +4,8 @@
 
 https://github.com/user-attachments/assets/5728cc32-e33f-46a7-a2b1-bc0d9ad67567
 
+---
+
 **Smart, efficient, and adaptive watering for every plant — individually.**  
 Plant Hopper intelligently targets plants using computer vision, optimized schedules, and soil moisture data, ensuring every plant gets exactly the care it needs.
 
