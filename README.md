@@ -13,20 +13,6 @@ Plant Hopper intelligently targets plants using computer vision, optimized sched
 
 ---
 
-## 💡 Inspiration
-
-Traditional watering systems like sprinklers waste up to **50%** of their water.  
-They treat all plants the same — regardless of species, moisture needs, or location.
-
-We wanted something **smarter, healthier for plants, and massively more efficient**.  
-Plant Hopper solves this by individually identifying and watering each plant using **computer vision**, **PID control**, and **real-time soil moisture analysis**.
-
-Unlike fixed-zone irrigation, our system **scales dynamically** across multiple plants using a **database-driven architecture**.
-
----
-
-## ⚙️ What We Built
-
 #### Final CAD Model
 
 ![alt text](<images/Screenshot 2025-10-07 234209.png>)
@@ -57,16 +43,3 @@ A **multithreaded Python system** integrates all components:
 - Handles Firebase reads/writes
 - Oversees timing, alignment, and command execution
 - Enables smooth, concurrent hardware + cloud operations
-
----
-
-## 🧠 What We Learned
-Building Plant Hopper required merging multiple technical disciplines:
-
-- **Systems Integration** – combining hardware, web, and database components  
-- **PID + AprilTag Control** – achieving accurate turret movement and targeting  
-- **Real-Time Syncing** – maintaining consistent data flow and actuation  
-- **Firebase Architecture** – structuring live robot ↔ app communication  
-- **Camera Calibration** – correcting lens distortion using YAML calibration files  
-- **Multithreading** – optimizing CPU utilization across multiple concurrent processes  
-- **Cross-System Debugging** – bridging hardware and software reliability
